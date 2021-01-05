@@ -36,49 +36,10 @@ def long_planeteer_calls(planeteer_calls)
 end
 
 
-# def find_valid_calls(planeteer_calls)
-#   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-#   # Use an Enumerable to check if any elements in the passed in array match the valid calls listed above 
-#   # Return the first valid call found, or return nil if no valid calls are found
-  
-#   planeteer_calls.find(valid_calls) do |valid|
-#     return valid
-    
-#   end
-  
-# end
-
-
-# def find_valid_calls(planeteer_calls)
-#   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-#   # Use an Enumerable to check if any elements in the passed in array match the valid calls listed above 
-#   # Return the first valid call found, or return nil if no valid calls are found
-  
-#   planeteer_calls.find(valid_calls) do |valid|
-#     valid = planeteer_calls.find(valid_calls)
-    
-#   end
-  
-# end
-
-
-# def find_valid_calls(planeteer_calls)
-#   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-#   # Use an Enumerable to check if any elements in the passed in array match the valid calls listed above 
-#   # Return the first valid call found, or return nil if no valid calls are found
-
-#     planeteer_calls.find do |valid|
-#       valid = planeteer_calls && valid_calls
-
-#   end
-  
-# end
-
-
-def find_valid_calls(planeteer_calls)
-  valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   # Use an Enumerable to check if any elements in the passed in array match the valid calls listed above 
   # Return the first valid call found, or return nil if no valid calls are found
+def find_valid_calls(planeteer_calls)
+  valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
 
     planeteer_calls.find && valid_calls.find do |valid|
       valid = planeteer_calls.find && valid_calls.find
